@@ -1,0 +1,43 @@
+What is React? 
+
+- Front-end “framework” and it can be directly comparable to Vue or Angular
+
+Why to use React?
+- MVC: model view controller
+- Performance and testing
+- Structure the “view” layer of your application
+- one way data-binding
+- offers better performance and debugging
+
+What you should know first?
+- data types, variables, functions, loops, etc.
+- array methods like foreach() & map()
+- Fetch API and make HTTP requests
+
+Components: Functions vs. Classes
+  export const Header = () => {
+    return (
+      <div>
+        <h1>My Header</h1>
+      </div>
+    )
+  }
+
+  export default class Header extends React.Component {
+    render() {
+      return (
+        <div>
+          <h1>My Header</h1>
+        </div>
+      )
+    }
+  }
+
+Components render/return JSX (JavaScript Syntax Extension)
+Components can also take in "props"
+
+React Hooks
+- useState: Returns a stateful value and a function to update it
+- useEffect: Perform side effects in function components
+- useContext, useReducer, useRef
+- custom hooks can also be created
